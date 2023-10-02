@@ -1,38 +1,38 @@
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
-input[type=number]{
-  font-size: 22px;
-  font-weight: 600;
-  padding-left: 30px;
+input[type='number'] {
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 30px;
 }
 
-input[type=text]{
-  font-size: 22px;
+input[type='text'] {
+    font-size: 22px;
 }
 
-*{
-  font-family: 'Carisma Gothic' !important;
+* {
+    font-family: 'Carisma Gothic' !important;
 }
 
-@media(max-width:425px) {
-  .paper{
-    width: 80% !important;
-  }
+@media (max-width: 425px) {
+    .paper {
+        width: 80% !important;
+    }
 
-  .header{
-    width: 80% !important;
-  }
+    .header {
+        width: 80% !important;
+    }
 
-  .text{
-    font-size: 18px !important;
-  }
+    .text {
+        font-size: 18px !important;
+    }
 
-  .percentage{
-    font-size: 12px !important;
-    width: 45px !important;
-  }
+    .percentage {
+        font-size: 12px !important;
+        width: 45px !important;
+    }
 }

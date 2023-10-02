@@ -1,13 +1,76 @@
+*{
+    box-sizing: 'border-box'
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: 'Carisma Gothic' !important;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
+}
+.MuiTypography-root{
+    font-family: 'Carisma Gothic' !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: 'Carisma Gothic';
+    src: url('./Fonts/CarismaGothic-600DemiBold.eot');
+    src:
+        local('CarismaGothic-600DemiBold'),
+        url('./Fonts/CarismaGothic-600DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carisma Gothic';
+    src: url('./Fonts/CarismaGothic-300Light.eot');
+    src:
+        local('CarismaGothic-300Light'),
+        url('./Fonts/CarismaGothic-300Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carisma Gothic';
+    src: url('./Fonts/CarismaGothic-700Bold.eot');
+    src:
+        local('CarismaGothic-700Bold'),
+        url('./Fonts/CarismaGothic-700Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carisma Gothic';
+    src: url('./Fonts/CarismaGothic-900UltraBold.eot');
+    src:
+        local('CarismaGothic-900UltraBold'),
+        url('./Fonts/CarismaGothic-900UltraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carisma Gothic';
+    src: url('./Fonts/CarismaGothic-500Medium.eot');
+    src:
+        local('CarismaGothic-500Medium'),
+        url('./Fonts/CarismaGothic-500Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carisma Gothic';
+    src: url('./Fonts/CarismaGothic-400Regular.eot');
+    src:
+        local('CarismaGothic-400Regular'),
+        url('./Fonts/CarismaGothic-400Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }

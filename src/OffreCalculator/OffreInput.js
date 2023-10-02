@@ -12,7 +12,7 @@ const OffreInput = (props) => {
     };
 
     return (
-        <Dialog open={open} onClose={handleClose}>
+        <Dialog disableRestoreFocus open={open} onClose={handleClose}>
             <DialogContent>
                 <Stack direction="row" alignItems="center">
                     <Stack sx={{ width: '50%' }}>
@@ -24,6 +24,7 @@ const OffreInput = (props) => {
                             Nom :
                         </FormLabel>
                         <TextField
+                            autoFocus
                             type="text"
                             sx={{
                                 marginRight: '10px',
@@ -65,7 +66,7 @@ const OffreInput = (props) => {
                         handleClose();
                     }}
                     variant="contained"
-                    autoFocus
+                    type="submit"
                 >
                     Ajouter
                 </Button>

@@ -66,7 +66,7 @@ const OffreLine = (props) => {
                         width: '38%'
                     }}
                 >
-                    {data.montant} DHS
+                    {data.montant.toLocaleString()} DHS
                 </Typography>
                 <Box>
                     <EditIcon>

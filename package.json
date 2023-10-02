@@ -3,18 +3,19 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "@mui/icons-material": "^5.14.11",
-        "@mui/material": "^5.14.11",
+        "@emotion/react": "^11.11.1",
+        "@emotion/styled": "^11.11.0",
+        "@mui/icons-material": "^5.14.1",
+        "@mui/material": "^5.14.4",
         "@testing-library/jest-dom": "^5.17.0",
         "@testing-library/react": "^13.4.0",
         "@testing-library/user-event": "^13.5.0",
-        "eslint": "^8.50.0",
-        "eslint-config-prettier": "^9.0.0",
-        "eslint-plugin-prettier": "^5.0.0",
         "nanoid": "^5.0.1",
-        "prettier": "^3.0.3",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
+        "react-number-format": "^5.3.1",
+        "react-on-screen": "^2.1.1",
+        "react-router-dom": "^6.15.0",
         "react-scripts": "5.0.1",
         "styled-components": "^6.0.8",
         "web-vitals": "^2.1.4"
@@ -23,7 +24,8 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "format": "npx prettier --write ."
     },
     "eslintConfig": {
         "extends": [

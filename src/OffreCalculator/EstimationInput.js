@@ -39,7 +39,6 @@ const EstimationInput = (props) => {
                 }}
                 onChange={(e) => {
                     setEstimation(e.target.value);
-                    console.log(typeof e.target.value);
                 }}
             />
         </Stack>
