@@ -1,4 +1,4 @@
-import { Button, Paper } from '@mui/material';
+import { Box, Button, Paper } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import './style.css';
 import EstimationInput from './EstimationInput';
@@ -65,18 +65,23 @@ const OffreCalculator = () => {
     };
 
     return (
-        <>
+        <Box
+            sx={{
+                backgroundColor: '#ced4da'
+            }}
+        >
             <EstimationInput setEstimation={setEstimation} />
             <Paper
                 className="paper"
-                elevation={3}
+                elevation={4}
                 sx={{
                     width: '55%',
                     marginX: 'auto',
                     height: '100%',
                     minHeight: '70vh',
                     padding: '15px',
-                    position: 'relative'
+                    position: 'relative',
+                    backgroundColor: '#F8F9FA'
                 }}
             >
                 <Button
@@ -113,7 +118,7 @@ const OffreCalculator = () => {
                     handleClickOpenEdit={handleClickOpenEdit}
                 />
             </Paper>
-        </>
+        </Box>
     );
 };
 
